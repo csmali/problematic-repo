@@ -1,7 +1,6 @@
-# Kullanıcı yönetim uygulaması bağımlılıkları
-requests==2.18.0        # CVE-2018-18074 - credentials leak on redirect
-pyyaml==5.1             # CVE-2020-14343 - arbitrary code execution via load()
-Pillow==8.0.0           # CVE-2021-23437 - ReDoS / memory exhaustion
-Flask==0.12.2           # CVE-2018-1000656 - DoS via large cookie
-cryptography==2.1.4     # CVE-2018-10903 - GCM nonce reuse
-urllib3==1.22           # CVE-2018-20060 - CRLF injection
+requests==2.18.0
+pyyaml==5.1
+Pillow==8.0.0
+Flask==0.12.2
+cryptography==2.1.4
+urllib3==1.22
